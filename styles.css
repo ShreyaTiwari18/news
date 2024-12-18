@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff5722; /* Red header */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    margin: 20px;
+}
+
+article {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+button {
+    background-color: #E64A19; /* Orange button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d84315;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #E64A19;
+}
+
+/* Styling for Scroll to Top Button */
+button.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E64A19;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+button.scroll-to-top:hover {
+    background-color: #d84315;
+}
